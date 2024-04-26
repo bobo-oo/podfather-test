@@ -25,12 +25,17 @@ cd podfather-test
 3. Install dependencies:
 
 ```
-npm install
+npm install --force
 ```
 
 ### Running the Application
 
 1. Start the application:
+
+```
+npm start
+```
+
 2. Open a web browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
 
 ## Overview
