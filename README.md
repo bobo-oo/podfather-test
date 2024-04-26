@@ -1,25 +1,79 @@
-# Getting Started with Create React App
+# Waste Data Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple application developed to manage waste collection data stored in a CSV file (`pod_data.csv`). The application allows users to view, edit, delete, and export waste collection data for several clients in a user-friendly format. It includes features such as search, filtering, sorting, pagination, and data export to Excel.
 
-## Available Scripts
+## Installation and Setup
 
-In the project directory, you can run:
+### Prerequisites
 
-### `npm start`
+- Node.js installed on your machine.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository to your local machine:
 
-### `npm test`
+```
+git clone https://github.com/bobo-oo/podfather-test.git
+```
+
+2. Navigate to the project directory:
+
+```
+cd podfather-test
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+### Running the Application
+
+1. Start the application:
+2. Open a web browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
+
+## Overview
+
+The application provides a user-friendly interface to manage waste collection data for multiple clients. Users can view, edit, delete, and export data, as well as perform operations such as search, filtering, sorting, and pagination to efficiently analyze the data.
+
+## Features
+
+- Display waste collection data for multiple clients in a tabular format.
+- Edit functionality to modify existing data.
+- Delete functionality to remove records from the dataset.
+- Export functionality to download the updated data in Excel format.
+- Search functionality to search for specific data.
+- Filtering options to filter data based on specific criteria.
+- Sorting functionality to sort data based on column values.
+- Pagination to navigate through multiple pages of data.
+
+## Built With
+
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces.
+- [Bootstrap](https://getbootstrap.com/) - Front-end framework for developing responsive and mobile-first websites.
+- [react-bootstrap-table-next](https://react-bootstrap-table.github.io/react-bootstrap-table2/) - Bootstrap table component for React.
+- [xlsx](https://www.npmjs.com/package/xlsx) - JavaScript library for reading and writing Excel files.
+
+## Author
+
+- Bo Bo Oo
+
+## Additional Information
+
+- The app uses Bootstrap for styling, so make sure to include Bootstrap in your project dependencies.
+- Ensure that the API endpoints used in the app are accessible from your environment.
+
+```bash
+npm test
+```
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+```bash
+npm run build
+```
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,7 +83,9 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+```bash
+npm run eject
+```
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
